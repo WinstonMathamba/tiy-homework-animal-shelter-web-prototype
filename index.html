@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animal Shelter</title>
+    <link rel="stylesheet" href="css/cssIndex.css">
+</head>
+<body class="content">
+
+<header>
+    <h1>Animal Shelter</h1>
+    <div class="navbar">
+        <a href="">List Animals</a> | <a href="/addOrEdit"> Add An Animal</a>
+    </div>
+
+    <h2 class="pgTitle">Animal List</h2>
+
+</header>
+
+<h3><label>Search for Animal:</label></h3>
+<form action="/" method="get">
+    <input type="text" name="name" id="name" placeholder="Name">
+
+    <select name="typeID">
+        <option value="">All Types</option>
+        <option value="d">Dog</option>
+        <option value="c">Cat</option>
+        <option value="b">Bird</option>
+        <option value="f">Fish</option>
+        <option value="r">Rabbit</option>
+    </select>
+    <input type="text" name="id" id="id" placeholder="Animal ID">
+    <button name="button">Search</button>
+</form>
+
+<!--List of Aimals that is static for now -->
+<section>
+    <div class="row">
+        <img src="images/dog.jpeg">
+        <p>
+        <h3><a>Rufus</a></h3>
+        <strong>Type:</strong> Dog
+        <br>
+        <strong>Breed:</strong> Hound<br>
+        <strong>Description:</strong> Lovable<br>
+        <strong>Notes:</strong> 5<br>
+        </p>
+
+        <img src="images/catbiz.jpeg">
+        <p>
+        <h3><a>Puss'n Suit</a></h3>
+        <strong>Type:</strong> Cat
+        <br>
+        <strong>Breed:</strong> Tabby<br>
+        <strong>Description:</strong> All Biz<br>
+        <strong>Notes:</strong> 2<br>
+        </p>
+
+        <img src="images/rabbit.jpeg">
+        <p>
+        <h3><a>Trixie</a></h3>
+        <strong>Type:</strong> Rabbit
+        <br>
+        <strong>Breed:</strong> LongHair<br>
+        <strong>Description:</strong> What's Up Doc?<br>
+        <strong>Notes:</strong> 2<br>
+        </p>
+    </div>
+
+</section>
+</body>
+</html>
