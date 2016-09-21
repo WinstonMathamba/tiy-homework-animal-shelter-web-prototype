@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Animal Notes</title>
+    <link rel="stylesheet" href="css/cssNote.css">
+</head>
+
+<header>
+    <h1>Animal Shelter</h1>
+
+    <p class="two_columns"><a href="/"> List Animals </a>
+        |
+        <a href="/addOrEditPg"> Add an Animal </a></p>
+
+</header>
+
+<section id="info">
+    <p>
+    <h2>Animal Notes</h2>
+    <img src="images/dog.jpeg">
+    <br>
+    <h2>Rufus</h2>
+    <strong>Type:</strong>Dog
+    <br>
+    <strong>Breed:</strong>Hound
+    <br>
+    <strong>Description:</strong> Lovable
+    </p>
+
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>Note</th>
+            <th>Delete</th>
+            </tr>
+
+            <td>
+             9/01/2016
+            </td>
+            <td>
+             Rufus can smell bacon a mile away. Be careful!
+            </td>
+            <td>
+                <a href="/"><img src="images/delete_x.png"style="width:100px; height: 30px; align-content: center"></a>
+            </td>
+        </tr>
+    </table>
+</section>
+
+<section>
+    <form>
+        <input type="hidden" name="id" />
+        <label>Add a Note:</label><br>
+        <textarea rows="8" name="note"></textarea><br>
+        <button id="addNote" name="button">Add Note</button>
+    </form>
+
+
+</section>
+
+</html>

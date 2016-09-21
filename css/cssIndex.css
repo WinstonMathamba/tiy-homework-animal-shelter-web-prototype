@@ -59,7 +59,7 @@ p {
 
 }
 
-div #nav {
+div .navbar {
     font-size: xx-large;
     padding: 0;
     margin: 0;
@@ -75,6 +75,7 @@ h2 {
     width: 700px;
     padding: 10px 10px 10px 0;
     overflow: hidden;
+
 
 }
 
